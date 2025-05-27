@@ -1,4 +1,4 @@
-import { Zap, Twitter, Github, Linkedin } from "lucide-react"
+import { Zap, Twitter, Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,16 +14,26 @@ export default function Footer() {
               <span className="text-xl font-bold">BuildFast</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              The fastest way to build and deploy your applications. Trusted by thousands of developers worldwide.
+              The fastest way to build and deploy your applications. Trusted by
+              thousands of developers worldwide.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -113,20 +123,31 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2024 BuildFast. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">
+            © 2024 BuildFast. All rights reserved.
+          </p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
               Privacy Policy
             </a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
               Terms of Service
             </a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-white text-sm transition-colors"
+            >
               Cookie Policy
             </a>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
