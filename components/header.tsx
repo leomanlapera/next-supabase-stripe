@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Zap } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Zap } from "lucide-react";
 
 export default function Header() {
   return (
@@ -16,16 +16,28 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a
+              href="#"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
               Features
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a
+              href="#"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
               Pricing
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a
+              href="#"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
               Docs
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a
+              href="#"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
               Support
             </a>
           </nav>
@@ -40,5 +52,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
